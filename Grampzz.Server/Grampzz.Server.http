@@ -1,0 +1,6 @@
+@Grampzz.Server_HostAddress = http://localhost:5091
+
+GET {{Grampzz.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

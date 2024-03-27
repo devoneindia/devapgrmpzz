@@ -1,0 +1,8 @@
+﻿ "ApGrmPizzaDb": "User ID=appizza;Password=Appizza01;Host=localhost;Port=5432;Database=appzzdb;Connection Lifetime=0;"
+
+
+CREATE USER appizza WITH password 'Appizza01';
+CREATE DATABASE appzzdb;
+GRANT ALL PRIVILEGES ON DATABASE appzzdb TO appizza;
+\\c appzzdb
+GRANT ALL on SCHEMA public to appizza;
